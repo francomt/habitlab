@@ -11,6 +11,8 @@ app.use("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../../", "public/index.html"));
 });
 
+console.log("test");
+
 app.use((err, req, res, next) => {
   console.error(err);
   console.error(err.stack);
