@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2018",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["ES2019"],
+    "types": ["node"],
+    "outDir": "../../dist/",
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["**/*.test.ts"]
+}

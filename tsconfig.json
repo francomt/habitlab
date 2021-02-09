@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "outDir": "./public",
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "include": ["src/client"]
+}
