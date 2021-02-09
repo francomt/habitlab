@@ -5,14 +5,11 @@ const app = express();
 
 app.use(express.json());
 
-// app.use(express.static(path.join(__dirname, "..", "public")));
 app.use(express.static(path.join(`${__dirname}../../public`)));
 
 app.use("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../../", "public/index.html"));
 });
-
-console.log("HI");
 
 app.use((err, req, res, next) => {
   console.error(err);

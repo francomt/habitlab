@@ -11,7 +11,6 @@ app.use(express_1.default.static(path_1.default.join(`${__dirname}../../public`)
 app.use("*", (req, res) => {
     res.sendFile(path_1.default.join(__dirname, "../../", "public/index.html"));
 });
-console.log("HI");
 app.use((err, req, res, next) => {
     console.error(err);
     console.error(err.stack);

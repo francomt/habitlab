@@ -10,7 +10,10 @@ module.exports = {
   devServer: {
     publicPath: "/public/",
   },
-  devtool: "inline-source-map",
+  devtool: "source-map",
+  watchOptions: {
+    ignored: /node_modules/,
+  },
   module: {
     rules: [
       {
