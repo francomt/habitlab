@@ -7,11 +7,10 @@
     "esModuleInterop": true,
     "jsx": "react",
     "lib": ["ES2019"],
-    "types": ["node"],
+    "types": ["node", "jest"],
     "outDir": "../../dist/",
     "experimentalDecorators": true,
     "sourceMap": true
   },
-  "include": ["**/*.ts"],
-  "exclude": ["**/*.test.ts"]
+  "include": ["**/*.ts"]
 }

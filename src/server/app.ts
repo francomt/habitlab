@@ -17,6 +17,4 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).send(err.message || "Internal Server Error!");
 });
 
-app.listen(3000, () => {
-  console.log("app listening on 3000");
-});
+export default app;
