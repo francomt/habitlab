@@ -2,4 +2,3 @@ node_modules
 dist
 public/bundle.js
 public/bundle.js.map
-dummy.js
