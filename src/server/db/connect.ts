@@ -13,6 +13,7 @@ async function connect(): Promise<void> {
       useFindAndModify: false,
       useUnifiedTopology: true,
     });
+    console.log("DB connected successfully!");
   } catch (error) {
     console.error(error);
   }
